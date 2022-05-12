@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="lewy">
+        <h1>Konfigurator stylu</h1>
+        <p>Podaj kolor tła</p>
+        <button onclick="zmiana1()" id="b1">Indigo</button>
+        <button onclick="zmiana2()" id="b2">SteelBlue</button>
+        <button onclick="zmiana3()" id="b3">Olive</button>
+        <p>„Podaj kolor czcionki</p>
+        <select onchange="zmiana4()" id="lista">
+            <option>White</option>
+            <option  >Tan</option>
+            <option  >Bisque</option>
+            <option  > Plum</option>
+        </select>
+        <p>Podaj rozmiar czcionki w procentach, np. 200%</p>
+        <input id="proc" onchange="zmiana5()" type="text" value="100%">
+        <p>Czy rysunek ma mieć ramkę?</p>
+        <input onchange="zmiana6()" type="checkbox" name="ramka" id="ramka">rysuj ramkę
+        <p>Jaki jest typ punktora listy?</p>
+        <input onchange="zmiana7()" type="radio" name="typ" id="dysk">dysk <br>
+        <input onchange="zmiana8()" type="radio" name="typ" id="kwadrat">kwadrat <br>
+        <input onchange="zmiana9()" type="radio" name="typ" id="okrąg">okrąg
+    </section>
+    <section id="prawy">
+        <img id="obraz" src="./gibraltar.jpg" alt="półwysep Gibraltar">
+        <ul id="ull">
+            <li>element 1</li>
+            <li>element 2</li>
+            <li>element 3</li>
+        </ul>
+        <p id="hihi">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+    </section>
+    <footer>
+        autor:00000000000
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+</html>

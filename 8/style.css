@@ -1,0 +1,52 @@
+* {
+    font-family: georgia;
+}
+
+.lewy {
+    background-color: maroon;
+    color: white;
+    height: 600px;
+    width: 30%;
+    float: left;
+}
+
+#prawy {
+    background-color: maroon;
+    color: white;
+    height: 600px;
+    width: 70%;
+    float: left;
+}
+
+footer {
+    background-color: dimgray;
+    color: white;
+    clear: both;
+}
+
+img {
+    float: left;
+    padding: 10px;
+    border: 1px solid white;
+}
+ul {
+    float: left;
+}
+
+#hihi {
+    clear: both;
+    padding: 10px;
+}
+
+#b1 {
+    background-color: indigo;
+}
+
+#b2 {
+    background-color: steelblue;
+}
+
+#b3 {
+    background-color: olive;
+}
+
